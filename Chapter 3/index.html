@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Chapter 3</title>  <!-- ชื่อที่แสดงบนบราวเซอร์ -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 
+
+     label for="txtFullName"             #ช่องรับข้อมูลชื่อ txtFullName
+     input id="txtFullName" type="text"  #ช่องรับข้อความทั่วไป 
+     for ทำงานคู่กับ id 
+     placeholder="กรุณาป้อนชื่อ-สกุล"        #กำหนดลายน้ำในช่องรับข้อมูล 
+     required                            #บังคับให้ผู็ใช้งานป้อนข้อมูล 
+     ปุ่ม submit                           #ไว้ใช้ส่งข้อมูล 
+     ปุ่ม button                           #ไว้ใช้ยกเลิก 
+     br                                  #เว้นบรรทัด 
+     autofocus="autofocus"               #โฟกัสช่องป้อนข้อมูลอัตโนมัติ 
+     maxlength="??"                      #กำหนดจำนวนตัวอักษรไม่เกิน 
+     type="number"                       #รับเฉพาะตัวเลข 
+     min="0" max="100000"                #ต่ำสุดและสูงสุด 
+     value="15000"                       #ค่าเริ่มต้นที่15000
+     step="1000"                         #เพิ่มขึ้น-ลดลง ทีละ1000
+     disabled="disabled"                 #ทำให้ช่องใช้งานไม่ได้ชั่วคราว
+     type="password"                     #ทำให้ไม่แสดงพาสเวิร์ด
+     type="date"                         #ปฎิทิน
+     type="checkbox"                     #สร้างตัวเลือกหลายรายการ
+     type="radio"                        #เลือกได้รายการเดียว
+     type="range"                        #ไว้ให้ระดับความพึงพอใจ
+     type="color"                        #เลือกสี
+     type="url"                          #ช่องรับURL
+     type="file"                         #เลือกไฟล์
+     accept="image/*"                    #เลือกไฟล์ประเภทรูปภาพ
+     accept="image/png,iamge/jpeg"       #กำหนดสกุลไฟล์
+     multiple                            #เลือกได้หลายไฟล์ในเวลลาเดียวกัน
+     accept="video/*"                    #เลือกไฟล์video
+     accept="audio/*"                    #เลือกไฟล์เสียง
+     accept="image/*,.pdf,.docx"         #ต้องการหลายสกุลไฟล์
+
+    -->
+
+    <div class="body-con">
+       <form id="form1">
+              <label for="txtFullName">ชื่อ-สกุล :</label>
+              <input id="txtFullName" 
+                     type="text"
+                     autofocus="autofocus" 
+                     maxlength="50"
+                     placeholder="กรุณาป้อนชื่อ-สกุล" 
+                     required /><br>
+      
+      
+              <label for="txtAdddress">ที่อยู่ :</label>
+              <input id="txtAdddress" 
+                     type="text" 
+                     maxlength="200"
+                     placeholder="กรุณาป้อนที่อยู่" 
+                     required /><br>
+      
+      
+              <label for="txtSalary">เงินเดือน :</label>
+              <input id="txtSalary" 
+                     type="number"  
+                     min="0" max="100000" step="1000" 
+                     value="15000"><br>
+      
+              <button type="submit">บันทึก</button>
+              <button type="button">ยกเลิก</button>
+          </form> <br>
+      
+      
+          <form id="frmLogin" action="#">
+              <fieldset>
+                  <legend>Login เข้าสู่ระบบบ</legend>
+                  <label for="UserName">UserName :</label>
+                  <input type="text" 
+                         name="UserName"
+                         placeholder="User Name" 
+                         required 
+                         autofocus> <br>
+      
+                  <label for="Password">Password :</label>
+                  <input type="password" 
+                         name="Password"
+                         placeholder="รหัสผ่าน"
+                         required> <br>
+      
+                  <label for="PasswordAgain">UserName อีกครั้ง :</label>
+                  <input type="password" 
+                         name="PasswordAgain"
+                         placeholder="รหัสผ่านอีกครั้ง"
+                         required> <br>
+      
+                  <input type="submit" 
+                         name="cmdLogin" 
+                         value="Login">
+                  <input type="button" 
+                         name="cmdCancel"
+                         value="Cancel">
+      
+              </fieldset>
+          </form> <br>
+      
+      
+          <form id="frmLogin" action="#">
+             <fieldset>
+                 <legend>Login เข้าสู่ระบบบ</legend>
+                 <label for="UserName">UserName :</label>
+                 <input type="text" 
+                        name="UserName"
+                        placeholder="User Name" 
+                        required 
+                        autofocus> <br>
+      
+                 <label for="Email">E-mail :</label>
+                 <input type="email"
+                        name="Email"
+                        placeholder="ป้อน E-mail"
+                        required> <br>
+      
+                 <input type="submit" 
+                        name="cmdLogin" 
+                        value="Login">
+                 <input type="button" 
+                        name="cmdCancel"
+                        value="Cancel">
+                 
+             </fieldset>
+         </form> <br>
+      
+      
+         <form id="form1" action="#">
+             <label for="txtFullName">ชื่อ-สกุล :</label>
+             <input id="txtFullName" 
+                    type="text"
+                    autofocus="autofocus" 
+                    placeholder="ชื่อ-สกุล" 
+                    required /><br>
+      
+             <label for="BirthDate">วันเกิด</label>
+             <input type="date" 
+                    name="BirthDate"
+                    placeholder="วันเกิด"> <br>
+      
+             <input type="submit" 
+                    name="cmdLogin" 
+                    value="Login">
+             <input type="button" 
+                    name="cmdCancel"
+                    value="Cancel"
+                    required>
+             
+         </form> <br>
+      
+      
+         <div>
+             ภาษาที่สนใจ : <br>
+             <form id="Form1">
+                    <input id="chkVB" 
+                           type="checkbox" 
+                           value="vb">Visual Basic <br>
+                    <input id="chkCS" 
+                           type="checkbox" 
+                           value="cs">Visual C# <br>
+                    <input id="chkJava" 
+                           type="checkbox" 
+                           value="jv">Visual JAVA <br>
+                    <input id="chkOther" 
+                           type="checkbox" 
+                           value="ot">อื่นๆ <br>
+             </form>
+         </div> <br>
+      
+      
+         <div>
+             กรุณาระบุเพศ : <br>
+             <form id="Form1">
+                    <input id="optMale"   
+                           name="gender" 
+                           type="radio" 
+                           value="male">ชาย
+                    <input id="optFemale" 
+                           name="gender" 
+                           type="radio" 
+                           value="female">หญิง
+                    <input id="optLGBT" 
+                           name="gender" 
+                           type="radio" 
+                           value="lgbt">เพศทางเลือก
+             </form>
+         </div> <br>
+      
+      
+         <div>
+             กรุณาให้คะแนน : <br>
+             <form id="Form1">
+                    <input id="rgPoint" 
+                           type="range" 
+                           min="0" 
+                           max="100" 
+                           value="40">
+             </form>
+         </div> <br>
+      
+      
+         <form id="Form1" action="#">
+             <label for="myColor">กรุณาเลือกสี :</label>
+             <input type="color" 
+                    name="myColor"> <br>
+      
+             <input type="submit" 
+                    name="cmdLogin" 
+                    value="Login">
+             <input type="button" 
+                    name="cmdCancel"
+                    value="Cancel"
+                    required>
+         </form> <br>
+
+
+         <form id="frmLogin" action="#">
+              <label for="maUrl">แฟนเพจ :</label>
+              <input type="url" 
+                     name="myUrl"
+                     placeholder="ป้อน URL"
+                     required> <br>
+
+                     <input type="submit" 
+                     name="cmdLogin" 
+                     value="Login">
+              <input type="button" 
+                     name="cmdCancel"
+                     value="Cancel"
+                     required>       
+         </form> <br>
+
+
+         <form id="form1" action="#">
+              <label for="myFile">เลือกไฟล์ :</label>
+              <input type="file" id="myFile">
+         </form> <br>
+
+
+         <form id="form1" action="#">
+              <label for="myFile">เลือกไฟล์ :</label>
+              <input type="file" id="myFile"
+                     accept="image/*"
+                     multiple>
+         </form> <br>
+
+
+         <form id="form1" action="#">
+              <label for="myFile">เลือกไฟล์ :</label>
+              <input type="file" id="myFile"
+                     accept="image/png,iamge/jpeg"
+                     multiple>
+         </form> <br>
+
+
+         <form id="form1" action="#">
+              <label for="myFile">เลือกไฟล์ :</label>
+              <input type="file" id="myFile"
+                     accept="video/*">
+         </form> <br>
+
+
+         <form id="form1" action="#">
+              <label for="myFile">เลือกไฟล์ :</label>
+              <input type="file" id="myFile"
+                     accept="audio/*">
+         </form> <br> 
+         
+         
+         <form id="form1" action="#">
+              <label for="myFile">เลือกไฟล์ :</label>
+              <input type="file" id="myFile"
+                     accept="image/*,.pdf,.docx">
+         </form> <br>
+
+    </div>
+    
+</body>
+</html>

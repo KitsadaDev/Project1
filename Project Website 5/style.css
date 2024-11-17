@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(68, 139, 233);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 7rem;
+}
+
+.logo a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    align-items:center;
+}
+
+.menu i {
+    color: #fff;
+}
+
+.menu a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.a1 {
+    padding: 2rem;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.sing {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+nav {
+    align-items: center;
+}
+
+section {
+    text-align: center;
+}
+
+.main-content {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+input {
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.input {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.submit input {
+    background-color: rgb(124, 190, 24);
+    padding-left: 9.1rem;
+    padding-right: 9.1rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.footer {
+    display: flex;
+    padding-left: 14rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.item1,.item2,.item3,.item4 {
+    padding-left: 15rem;
+    text-align: center;
+}
+
+.footer i {
+    font-size: 40px;
+}
+
+.style1 {
+    margin-top: 14rem;
+}
+
+.footer p {
+    margin-top: 0.5rem;
+}
+
+p,a,i {
+    color: #fff;
+}

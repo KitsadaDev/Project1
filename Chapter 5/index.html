@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 
+        meter                    #ความคืนหน้า 
+        progress                 #ความคืนหน้า2
+        mark                     #ไฮไลท์
+        del                      #ขีดเส้นฆ่า
+        select                   #สร้างรายการ
+        selected="selected"      #ใส่ตรงรายการหลัก
+        option                   #รายการย่อย
+        optgroup                 #หัวข้อตัวเลือก
+    -->
+
+    <div class="body-con">
+        <div>
+            ความคืบหน้า : <meter min="0" max="100" value="80"></meter>        
+        </div>
+        <div>
+            งาน A คืบหน้า :(45%)
+            <progress value="45" max="100">45%</progress> <br>
+            งาน B คืบหน้า :(20%)
+            <progress value="20" max="100">20%</progress> <br>
+            งาน C คืบหน้า :(60%)
+            <progress value="60" max="100">60%</progress> <br>
+        </div>
+    </div> <br>
+
+
+    <div class="body-con">
+        <article>
+            การเขียนโปรแกรมในยุคของ <mark>Windows 11</mark> ประกอบด้วยการพัฒนา WinUL และ .NET MAUI
+            เห็นได้ว่า ยุคสมัยของ <mark>Windows 11</mark> เกิดการเปลี่ยนแปลงมากมาย...
+        </article>
+    </div> <br>
+
+
+    <div class="body-con">
+        <p>
+            <del>ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ipsam tempore obcaecati rerum ducimus magnam neque est maiores, beatae sequi!</del>
+        </p>
+    </div>
+
+
+    <div class="body-con">
+        ภาษาที่สนใจ :
+        <select name="language">
+            <option value="vb" selected="selected">Visual Basic</option>
+            <option value="cs">Visual</option>
+            <option value="kt">Kotlin</option>
+            <option value="jv">Lava</option>
+        </select>
+    </div>
+
+
+    <div class="body-con">
+        ภาษาที่สนใจ :
+        <select name="language">
+            <optgroup label="Windows Application">
+                <option value="vb" selected="selected">Visual Basic</option>
+                <option value="cs">Visual</option>
+                <option value="kt">Kotlin</option>
+                <option value="jv">Lava</option>
+            </optgroup>
+            <optgroup label="Web Application">
+                <option value="asp">ASP.NET</option>
+                <option value="php">PHP</option>
+            </optgroup>
+            <optgroup label="Mobile Application">
+                <option value="ios">iOS</option>
+                <option value="ad">Android</option>
+                <option value="maui">.NET MAUI</option>
+            </optgroup>
+        </select>
+    </div>
+
+
+    <div class="body-con">
+        <h1>Android Programming</h1> <br>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul> <br>
+        <ol>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ol> <br>
+        <hr>
+        <dl>
+            <dt><b>Lorem ipsum dolor sit amet.</b></dt>
+            <dd>Lorem ipsum dolor sit amet.</dd>
+            <dd>Lorem ipsum dolor sit amet.</dd>
+            <dd>Lorem ipsum dolor sit amet.</dd>
+        </dl>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping test</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html">
+                <img src="logo.png" class="logonav">
+            </a>
+
+            <div class="nav-profile">
+                <p class="nav-profile-name">Bearbug</p>
+                <div class="nav-profile-cart">
+                    <i class="fas fa-cart-shopping"></i>
+                    <div class="cartcount">
+                        5
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="sidebar-search" placeholder="Search something...">
+
+            <a href="#" class="sidebar-items">
+                Menu 1
+            </a>
+            <a href="#" class="sidebar-items">
+                Menu 2
+             </a>
+             <a href="#" class="sidebar-items">
+                Menu 3
+             </a>
+             <a href="#" class="sidebar-items">
+                Menu 4
+             </a>
+        </div>
+        <div class="product">
+
+            <div class="product-items">
+                <img class="product-img" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                <p style="font-size: 1.2vw;">Product name</p>
+                <p style="font-size: 1vw;">500 THB</p>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="modal" style="display: none;">
+        <div class="modal-bg"></div>
+        <div class="modal-page">
+            <h2>Detail</h2>
+            <br>
+            <div class="modaldesc-content">
+                <img class="modaldesc-img" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                <div class="modaldesc-detail">
+                    <p style="font-size: 1.5vw;">Product name</p>
+                    <p style="font-size: 1.2vw;">500 THB</p>
+                    <br>
+                    <p style="color: #adadad;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, dignissimos nulla impedit omnis earum quas eveniet velit quis fugit accusamus neque dolorem nemo rerum, sunt dicta ex accusantium saepe magnam a error doloremque praesentium exercitationem voluptatum hic. Commodi, cupiditate. Aliquam, provident? Praesentium labore non, optio repellat beatae inventore. Nihil, quia?</p>
+                    <br>
+                    <div class="btm-control">
+                        <button class="btn">
+                            Close
+                        </button>
+                        <button class="btn btn-buy">
+                            Add to cart
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" style="display: none;">
+        <div class="modal-bg"></div>
+        <div class="modal-page">
+            <h2>My cart</h2>
+            <br>
+            <div class="cartlist">
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5;">Product name</p>
+                            <p style="font-size: 1.2;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5;">Product name</p>
+                            <p style="font-size: 1.2;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5;">Product name</p>
+                            <p style="font-size: 1.2;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5;">Product name</p>
+                            <p style="font-size: 1.2;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5;">Product name</p>
+                            <p style="font-size: 1.2;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5;">Product name</p>
+                            <p style="font-size: 1.2;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5;">Product name</p>
+                            <p style="font-size: 1.2;">500 THB</p>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px;">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="btn-control">
+                <button class="btn">
+                    Cancel
+                </button>
+                <button class="btn btn-buy">
+                    Buy
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>

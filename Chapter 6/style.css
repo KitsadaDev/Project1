@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.body-con {
+    margin: 1rem;
+    padding: 2rem;
+    border: 5px solid rgb(234, 0, 255);
+    border-radius: 10px;
+}
+
+/* ลบเส้นใต้ */
+a:link {
+    text-decoration: none;
+}
+
+/* เมาส์ชี้มีสี */
+a:hover {
+    color: #fff;
+    background-color: red;
+}
+
+/* ลิ้งค์ที่เคยกดดแล้วจะเป็นสี */
+a:visited {
+    color: blueviolet;
+}
+
+/* บรรทัดแรกเป็นสี */
+p::first-line {
+    color: red;
+    font-weight: bold;
+}
+
+p {
+    text-align: center; /* ข้อความอยู่ตรงกลางแนวนอน */
+    text-align: left; /* ข้อความอยู่ชิดซ้าย */
+    text-align: right; /* ข้อความอยู่ชิดขวา */
+
+}
+ 
+.s1 {
+    color: #fff;
+    background-color: #047615;
+    width: 200px;
+    height: 75px;
+    border: 1px solid #6dc20e;
+    border-radius: 5px;
+}
+
+.s2 {
+    width: 200px;
+    height: 75px;
+}
+
+input:in-range {
+    border: 2px solid green;
+}
+
+input:out-of-range {
+    border: 2px solid red;
+}
+
+/* กึ่งกลางแนวตั้ง */
+.contentcenter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* กลางจอ */
+.con {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box {
+    color: #fff;
+    background-color: #4b4848;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 3px;
+    width: 200px;
+    height: 150px;
+}
+
+.box h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: underline; /* ขีดเส้นใต้ */
+    float: left; /* ชิดซ้ายหน้าแสดงผล */
+}

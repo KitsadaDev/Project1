@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    display: inline-block;  /* พื้นที่เต็มแนวนอน */
+    margin: 2px 0;
+    margin-right: 15rem;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    box-sizing: border-box;  /* ความกว้างเท่ากัน */
+}

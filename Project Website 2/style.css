@@ -1,0 +1,119 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Set */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-con {
+    background-color: rgb(29, 170, 123);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 5rem;
+}
+
+.nav-con ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-con a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.logo a {
+    color: #fff;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.container-con {
+    height: 200px;
+}
+
+.con p {
+    background-color: rgb(26, 127, 194);
+    color: #fff;
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    margin-top: 12rem;
+    padding: 0.5rem;
+    margin-left: 51rem;
+    margin-right: 51rem;
+}
+
+.product {
+    background-color: rgb(29, 170, 123);
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+}
+
+.product-item p {
+    color: #fff;
+}
+
+.item {
+    font-size: 35px;
+    padding-bottom: 1rem;
+}
+
+.footer-top-con {
+    text-align: center;
+    height: 150px;
+}
+
+.footer-top-con p {
+    color: black
+}
+
+.team {
+    padding-top: 3rem;
+    font-size: 24px;
+}
+
+.footer-item {
+    width: 900px;
+    margin: auto;
+    margin-top: 1rem;
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item1 {
+    background-color: rgb(192, 147, 192);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center
+}
+
+.item2 {
+    background-color: rgb(162, 231, 183);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center
+}
+
+.item3 {
+    background-color: blanchedalmond;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center
+}
+
+.item4 {
+    background-color: rgb(165, 190, 243);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center
+}

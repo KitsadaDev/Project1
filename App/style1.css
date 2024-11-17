@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.nav2 {
+    text-align: center;
+}
+
+.nameapp h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.logo img {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    width: 150px;
+}
+
+.login1 h2 {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.login2 input {
+    border-radius: 10px;
+    border: 2px solid #E0E0E0;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 10rem;
+    font-size: 18px;
+}
+
+.btn1 {
+    border-radius: 10px;
+    border: 2px solid #E0E0E0;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 10.3rem;
+    padding-right: 10.3rem;
+    font-size: 18px;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.btn2 {
+    margin-left: 46.5rem;
+    border-radius: 10px;
+    border: 2px solid #E0E0E0;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 9.7rem;
+    font-size: 18px;
+    background-color: #f5f3f3;
+    display: flex;
+}
+
+.p0 {
+    margin-top: 1rem;
+    color: #747474;
+}
+
+.btn2 img {
+    width: 80px;
+    margin-left: 5rem;
+}
+
+.btn2 p {
+    margin-top: 0.5rem;
+    margin-left: -0.5rem;
+}
+
+.by {
+    display: flex;
+    margin-left: 6.5rem;
+}
+
+.by2 {
+    display: flex;
+    margin-left: 14.5rem;
+}
+
+.p1 {
+    color: #747474;
+    margin-left: 39.8rem;
+}
+
+.p2 {
+    margin-left: 0.3rem;
+}

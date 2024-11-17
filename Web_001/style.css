@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anuphan", serif;
+}
+
+.form1 {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(221, 241, 165);
+    border-radius: 10px;
+}
+
+.fieldset1 {
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    margin-right: 98rem;
+}
+
+.fieldset1 input {
+    cursor: pointer;
+}
+
+.fieldset2 {
+    border-radius: 8px;
+    margin-right: 98rem;
+}
+
+.fieldset2 input {
+    cursor: pointer;
+}
+
+.menu {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu input {
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+.number {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.number input {
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+.item legend {
+    margin-left: 0.4rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item input {
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.message {
+    margin-top: 0.7rem;
+    display: flex;
+}
+
+.message p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+textarea {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+.payment {
+    margin-top: 0.7rem;
+    display: flex;
+}
+
+.payment p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+select {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(114, 114, 114);
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    border: 1px solid rgb(114, 114, 114);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: rgb(46, 243, 89);
+    transition: 0.3s;
+}

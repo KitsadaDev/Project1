@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h3>รายงานเดือน กรกฎาคม 2567</h3>
+        <div class="box info">
+            <div>คงเหลือ</div>
+            <h1 id="txt_remaining"></h1>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+            <a href="add.html" class="box success" style="margin-right: 10px;">
+                <p>รายรับ</p>
+                <p id="txt_income"></p>
+            </a>
+            <a href="add.html" class="box danger" style="margin-left: 10px;">
+                <p>รายจ่าย</p>
+                <p id="txt_outcome"></p>
+            </a>
+        </div>
+        <div style=" display: flex; margin-top: 30px;">
+            <div onclick="tapsearch(this, '')" id="tap_all" class="tag active">ทั้งหมด</div>
+            <div onclick="tapsearch(this, 'TOPUP')" id="tap_income" class="tag ">รายรับ</div>
+            <div onclick="tapsearch(this, 'PAYMENT')" id="tap_outcome" class="tag ">รายจ่าย</div>
+        </div>
+        <div id="render_statement" style="margin-top: 10px;">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+        
+</body>
+</html>

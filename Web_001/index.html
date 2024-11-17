@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitsada_001</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form id="form" class="form1">
+        <div class="menu">
+            ชื่ออาหาร: 
+            <input type="text"
+                   required>
+        </div>
+        <div class="number">
+            จำนวน: 
+            <input type="number" 
+                   required>
+        </div>
+        <div class="item">
+            <fieldset class="fieldset1">
+                <legend>ขนาด:</legend>
+                <input type="radio" 
+                       id="size" 
+                       name="gender" 
+                       value="small">
+                <label for="size">เล็ก</label>
+                <input type="radio" 
+                       id="size" 
+                       name="gender" 
+                       value="medium">
+                <label for="size">กลาง</label>
+                <input type="radio" 
+                       id="size" 
+                       name="gender" 
+                       value="big">
+                <label for="size">ใหญ่</label>
+            </fieldset>
+            <fieldset class="fieldset2">
+                <legend>เพิ่มเติม:</legend>
+                <input type="checkbox" 
+                       id="extra" 
+                       value="cheese">
+                <label for="extra">ชีส</label>
+                <input type="checkbox" 
+                       id="extra" 
+                       value="Bacon">
+                <label for="extra">เบค่อน</label>
+                <input type="checkbox" 
+                       id="extra" 
+                       value="salad">
+                <label for="extra">สลัด</label>
+            </fieldset>
+        </div>
+        <div class="message">
+            <p>หมายเหตุพิเศษ: </p>
+            <textarea 
+                name="message" 
+                id="message">
+            </textarea>
+        </div>
+        <div class="payment">
+            <p>วิธีการชำระเงิน: </p>
+            <select name="money" id="money" required>
+                <option value="volvo">
+                    เลือกวิธีการชำระเงิน
+                </option>
+                <option value="saab">
+                    QR CODE
+                </option>
+                <option value="fiat">
+                    ชำระเงินสด
+                </option>
+                <option value="audi">
+                    บัตรเครดิต
+                </option>
+            </select>
+        </div>
+        <button class="btn" type="submit">สั่งอาหาร</button>
+    </form>
+    
+</body>
+</html>

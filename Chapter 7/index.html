@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- การสร้างตารราง -->
+
+    <table style="width: 80%;" border="1">
+        <thead>
+            <tr>
+                <th>Head 1 Colurmn 1</th>
+                <th>Head 1 Colurmn 2</th>
+                <th>Head 1 Colurmn 3</th>
+            </tr>
+        </thead>
+        <Tbody>
+            <tr>
+                <td>Row 1 Colurmn 1</td>
+                <td>Row 1 Colurmn 2</td>
+                <td rowspan="3">Row 1 Colurmn 3</td> <!-- รวมแถว -->
+            </tr>
+            <tr>
+                <td>Row 2 Colurmn 1</td>
+                <td>Row 2 Colurmn 2</td>
+                <td>Row 2 Colurmn 3</td>
+            </tr>        
+            <tr>
+                <td colspan="2">Row 3 Colurmn 1</td> <!-- รวมคอลัมน์ -->
+                <td>Row 3 Colurmn 3</td>
+            </tr>
+            <tr>
+                <td>Row 4 Colurmn 1</td>
+                <td>Row 4 Colurmn 2</td>
+                <td>Row 4 Colurmn 3</td>
+            </tr>
+        </Tbody>
+        <tfoot>
+            <tr>
+                <td>Foot Colurmn 1</td>
+                <td>Foot Colurmn 2</td>
+                <td>Foot Colurmn 3</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

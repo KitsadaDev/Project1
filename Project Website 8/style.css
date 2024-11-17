@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background: url(https://media.istockphoto.com/id/1180538463/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B8%B9%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%84%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%81%E0%B8%B8%E0%B8%88%E0%B8%B4%E0%B9%82%E0%B8%81%E0%B8%B0-%E0%B8%9F%E0%B8%B9%E0%B8%88%E0%B8%B4%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%B4%E0%B8%94%E0%B8%B0-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99.jpg?s=612x612&w=0&k=20&c=Y52fQyDn4k8qC_UFc7udhnQ3s_mFsfMvBXyVHAs63Ek=);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.header-info {
+    margin-top: 5rem;
+    width: 500px;
+}
+
+.header-info h3 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.header-btn {
+    margin-top: 1rem;
+}
+
+.header-btn input {
+    padding: 0.5rem;
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-btn button {
+    padding: 0.5rem;
+    width: 150px;
+    background-color: #00b7ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.about-con {
+    padding: 0 10rem;
+}
+
+.about-title {
+    color: #00b7ff;
+    font-size: 2rem;
+}
+
+.about-desc {
+    color: #808080;
+    margin: 1rem 0;
+}
+
+.about-img {
+    margin: 3rem 0;
+}
+
+.pricing {
+    background-color: #00b7ff;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.pricing-info h3 {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.pricing-info p {
+    margin: 1rem 0;
+}
+
+.pricing-table {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.pricing-box {
+    background-color: #fff;
+    color: black;
+}
+
+.pricing-box-title {
+    background-color: #e4e4e4;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pricing-box-info {
+    padding: 1rem;
+}
+
+.pricing-box-info p {
+    margin: 0.5rem 0;
+}
+
+.price-blue {
+    color: #00b7ff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.pricing-more-info {
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: #14df5b;
+    padding: 1rem;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.clients {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.clients-title h3 {
+    color: #00b7ff;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.clients-title p {
+    color: #808080;
+    margin: 1rem 0;
+}
+
+.clients-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    text-align: left;
+}
+
+.clients-img {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.clients-img img {
+    width: 30%;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+.newslatter {
+    background: url(https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbXB1dGVyfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.newslatter-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #fff;
+}
+
+.newslatter-title h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.newslatter-title input {
+    padding: 0.5rem;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.newslatter-title button {
+    padding: 0.5rem;
+    width: 150px;
+    background-color: #00b7ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #00b7ff;
+    padding: 1rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu li {
+    margin-right: 1rem;
+}
+
+.footer-menu ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+}

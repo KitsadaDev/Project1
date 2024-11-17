@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+nav {
+    padding: 0 2rem;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 25px;
+}
+
+.con {
+    display: flex;
+}
+
+.menu li {
+    padding: 2rem;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+}
+
+.input {
+    margin-left: 63rem;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign {
+    margin-right: 0.5rem;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.sign:hover {
+    background-color: rgb(76, 76, 204);
+    color: #fff;
+    transition: 0.4s;
+}
+
+.get {
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(76, 76, 204);
+}
+
+.sieber {
+    padding-left: 43rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(10, 10, 73);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.sieber p {
+    color: #fff;
+}
+
+.f {
+    margin-right: 2rem;
+}
+
+.now {
+    margin-left: 2rem
+}
+
+.now2 {
+    background-color: rgb(76, 76, 204);
+    color: #fff;
+    font-weight: bold;
+}
+
+.item {
+    padding-top: 5rem;
+    padding-left: 80rem;
+}
+
+.item1 {
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+.item2 {
+    font-size: 20px;
+}
+
+.footer1 {
+    margin-left: 80rem;
+    margin-top: 2rem;
+}
+
+.email {
+    border-radius: 5px;
+    border: 1px solid rgb(224, 221, 221);
+    font-weight: bold;
+    padding: 1rem;
+    padding-right: 5rem;
+}
+
+.submit {
+    background-color: rgb(76, 76, 204);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}

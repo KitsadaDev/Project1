@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#grad1 {
+    height: 958px;
+    background-color: rgb(8, 1, 109);
+    background-image: linear-gradient(to bottom right, rgb(8, 1, 109), rgb(128, 2, 167));
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6rem;
+    padding-top: 2rem;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding: 1rem;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tus {
+    margin-left: 65rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.tus i {
+    padding-left: 1rem;
+}
+
+hr.style{
+	border-top: 1px solid #fff;
+    margin-left: 6rem;
+    margin-right: 7rem;
+}
+
+p,a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    height: 500px;
+    padding-top: 11rem;
+    padding-left: 6rem;
+}
+
+.h {
+    padding-left: 2.5rem;
+}
+
+.content p {
+    font-size: 50px;
+}
+
+.input {
+    padding-top: 3rem;
+    display: flex;
+}
+
+.btn {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-right: 10rem;
+}
+
+.btn2 {
+    background-color: rgb(29, 29, 78);
+    border: 1px solid #fff;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer p {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 8rem;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.main-footer {
+    margin-left: 6rem;
+    margin-top: 10rem;
+    display: flex;
+}
+
+.footer2 {
+    display: flex;
+    margin-left: 60rem;
+}
+
+.ft2 {
+    margin-left: 10rem;
+}

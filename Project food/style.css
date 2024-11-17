@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto ;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.maincontent {
+    background-color: #d8d7d7;
+}
+
+.maincontent-con {
+    display: flex;
+}
+
+.maincontent-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.maincontent-info h3 {
+    font-size: 2rem;
+}
+
+.maincontent-info p {
+    margin: 1rem 0;
+}
+
+.maincontent-info .maincontent-btn {
+    background-color: rgb(245, 199, 47);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.maincontent-img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.maincontent-img img {
+    border: 5px solid #f5f230;
+    border-radius: 10px;
+}
+
+.contene-item img {
+    border: 5px solid #f5f230;
+    border-radius: 10px; 
+}
+
+.content-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.content-title {
+    margin: 2rem 0;
+}
+
+.contene-item img {
+    width: 100%;
+}
+
+.contene-item h4 {
+    margin-top: 1rem;
+}
+
+.contene-item p {
+    margin: 1rem 0;
+}
+
+.contene-item a {
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(245, 199, 47);
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 300ms;
+    border: 2px solid transparent;
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date {
+    background-color: #fff;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-buttom {
+    text-align: center;
+    padding: 1rem;
+    background-color: #d8d7d7;
+    font: bolder;
+}
+
+.profile {
+    display: flex;
+    
+}
+
+.profile a {
+    padding-left: 0.4rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.profile i {
+    font-size: 1.5rem;
+}

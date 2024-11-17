@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.color {
+    background: linear-gradient(red,green);
+    /* ไล่สีเส้นตรงบนล่าง */
+}
+
+.color2 {
+    background: linear-gradient(to right,rgb(0, 255, 191),rgb(238, 0, 218));
+    /* ไล่สีเส้นตรงซ้าย-ขวา */
+}
+
+.color3 {
+    background: linear-gradient(to right,rgb(166, 255, 0) 20%,rgb(60, 2, 194) 60%);
+    /* ไล่สีกำหนดสัดส่วน */
+}
+
+.color4 {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(rgb(255, 0, 0),rgb(40, 14, 153));
+    /* ไล่สีแบบวงกลม */
+    /* กำหนดใส่ % ได้ */
+}
+
+.color5 {
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(black,yellow,blue,red);
+    /* ไล่สีแบบจุด */
+}
